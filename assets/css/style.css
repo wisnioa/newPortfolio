@@ -1,0 +1,76 @@
+video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+      /* padding-bottom: 20px; */
+      height: 100%;
+    width:100%;
+    /* margin-bottom: px; */
+  }
+
+.overlay {
+    background:rgba(28, 209, 241, 0);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+  
+  }
+  
+  .overlay h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: white;
+    text-rendering: optimizeLegibility;
+  
+  }
+  
+  #overlay-imgs {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:250px 0px 0px 0px;
+  
+  } 
+  
+  #overlay-imgs img{
+  margin-top: 140px;
+  
+  }
+
+  
+  .card{
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+   
+    
+  }
+  
+  .card-image{
+   
+    opacity: .5;
+    /* width:400px; */
+    
+  }
+  
+  .card-image:hover {
+    opacity: 1;
+    filter: alpha(opacity=1); 
+  }
+  
+#aboutPic img {
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+  
+
+body, .page-footer, nav, #portfolio {
+background-color: #011f4f;
+
+}
+
