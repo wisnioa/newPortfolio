@@ -53,9 +53,7 @@ video {
   
   .card-image{
    
-    opacity: .5;
-    /* width:400px; */
-    
+    opacity: .5;  
   }
   
   .card-image:hover {
@@ -67,9 +65,28 @@ video {
     margin-left: 50px;
     margin-bottom: 30px;
 }
+
+nav{
+  height: 124px;
+  background-color: white;
   
 
-body, .page-footer, nav, #portfolio {
+}
+
+nav li a {
+  font-size: 20px;
+  color:#011f4f;
+  font-weight: bold;
+}
+.brand-logo img {
+  margin-left:20px;
+  margin-top:10px;
+}
+.parallax-container{
+  height:700px;
+}
+
+body, .page-footer, #portfolio {
 background-color: #011f4f;
 
 }

@@ -3,7 +3,7 @@ $(document).ready(function(){
   
 
     $('.parallax').parallax();
-      
+    
       $('.carousel').carousel();
       
       $('.modal').modal();
