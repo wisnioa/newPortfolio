@@ -99,8 +99,9 @@ nav li a {
 .parallax-container{
   height:700px;
 }
- body, .page-footer, #portfolio {
-background-color: #011f4f;
+ body, .page-footer, .footer-copyright p, #portfolio {
+background: #212121;
+color:  turquoise;
 
 }
 
