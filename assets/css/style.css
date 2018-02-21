@@ -1,7 +1,12 @@
+
+nav {
+  position: absolute;
+}
 video {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    position: relative;
       /* padding-bottom: 20px; */
       height: 100%;
     width:100%;
@@ -27,7 +32,7 @@ video {
   
   }
   
-  #overlay-imgs {
+  /* #overlay-imgs {
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
     display: flex;
@@ -40,16 +45,22 @@ video {
   #overlay-imgs img{
   margin-top: 140px;
   
-  }
+  } */
 
-  
+
   .card{
     border-style: solid;
     border-color: grey;
     border-width: 1px;
-   
     
-  }
+    animation: fadein 10s;
+    }
+    @keyframes fadein {
+      from { opacity: 0}
+      to   { opacity: 1}
+    }
+    
+  
   
   .card-image{
    
@@ -66,31 +77,57 @@ video {
     margin-bottom: 30px;
 }
 
-nav{
+/* nav{
   height: 124px;
-  background-color: white;
+  /* background-color: white; */
+
   
 
-}
+ *
 
 nav li a {
+  margin-top:10px;
   font-size: 20px;
-  color:#011f4f;
+
   font-weight: bold;
 }
 .brand-logo img {
-  margin-left:20px;
-  margin-top:10px;
+  margin-top: 10px;
+
+
 }
 .parallax-container{
   height:700px;
 }
-
-body, .page-footer, #portfolio {
+ body, .page-footer, #portfolio {
 background-color: #011f4f;
 
 }
 
-.brand-logo {
-  color: white;
+
+
+/* .navOverlay img{
+position: relative;
+  margin-top:80px;
+  position: relative;
+  animation: truck 20s infinite;
+  animation-delay: 5s;
+-webkit-animation: truck 20s infinite;
+-webkit-animation-delay: 5s;
 }
+@keyframes truck {
+  0%   {left:-40%; top:0px;}
+
+  100% {left:100%; top:0px;}
+}
+
+@-webkit-keyframes truck {
+  0%   {left:0%; top:0px;}
+
+  100% {left:100%; top:0px;}
+} */
+
+/* .navChange:hover {
+  
+    transform: scale(1.2);
+}  */

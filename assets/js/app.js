@@ -1,7 +1,6 @@
 
 $(document).ready(function(){
   
-
     $('.parallax').parallax();
     
       $('.carousel').carousel();
@@ -18,7 +17,12 @@ $(document).ready(function(){
       // SCROLLSPY
       $('.scrollspy').scrollSpy();
       //SIDENAV
-      $(".button-collapse").sideNav();
+
   
+  // Show sideNav
+  $('.button-collapse').sideNav();
+ 
+      
+
     });
       
