@@ -194,6 +194,11 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 }
 
+#socialBar img {
+  height: 50px;
+  width: 50px;
+}
+
 /* .navOverlay img{
 position: relative;
   margin-top:80px;
