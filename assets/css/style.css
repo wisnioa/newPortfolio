@@ -33,6 +33,8 @@ video {
     text-rendering: optimizeLegibility;
   
   }
+
+ 
   
   /* #overlay-imgs {
     position: absolute;
@@ -167,6 +169,24 @@ font-family: 'Nothing You Could Do', cursive;
     -webkit-transform: scale3D(0, 0, 1);
             transform: scale3D(0, 0, 1);
   } 
+}
+
+
+form {
+  background-color: white;
+  border: turquoise 3px solid;
+}
+
+#first_name, #email,#textarea1, {
+  font-weight: bold; 
+  font-size: 30px;
+
+}
+
+#label, #send {
+font-size: 25px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 /* .navOverlay img{
