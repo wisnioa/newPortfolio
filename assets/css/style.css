@@ -104,7 +104,12 @@ nav li a {
  body, .page-footer, .footer-copyright p, #portfolio {
 background: #212121;
 color:  turquoise;
-font-family: 'Nothing You Could Do', cursive;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#intro {
+  text-align:justify;
 
 }
 
@@ -177,7 +182,7 @@ form {
   border: turquoise 3px solid;
 }
 
-#first_name, #email,#textarea1, {
+#first_name, #email,#textarea1 {
   font-weight: bold; 
   font-size: 30px;
 

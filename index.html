@@ -123,7 +123,7 @@
             <div id="aboutSection">
                 <div class="row">
 
-                <h4 class="center">LET ME INTRODUCE MYSELF...</h4>
+                    <h4 class="center">LET ME INTRODUCE MYSELF...</h4>
                 </div>
                 <div class="container">
                     <div class="row">
@@ -131,6 +131,7 @@
 
                         <div class="col l4">
                             <h4>TOP SKILLS</h4>
+                            <hr>
                             <h5>JavaScript</h5>
                             <h5>HTML / CSS</h5>
                             <h5>React JS</h5>
@@ -141,13 +142,13 @@
                             <img src="./assets/images/amandaPic.jpg" alt="Amanda Pic" class="circle responsive-img">
                         </div>
                         <div class="col l4">
-                            <h5>Hi, I'm Amanda and I recently moved here to Austin from Connecticut in July 2017. Have been loving
+                            <h5 id="intro">Hi, I'm Amanda and I recently moved here to Austin from Connecticut in July 2017. Have been loving
                                 the influx of tacos, no harsh winters, new friends and beautiful scenery. I am a new graduate
                                 of the University of Texas at Austin's Full Stack Coding Bootcamp and I enjoy learning how
                                 to code.... now let's get coding! </h5>
                         </div>
-
                     </div>
+
                 </div>
             </div>
 
@@ -299,13 +300,13 @@
                         <form action="./assets/php/mail.php" method="POST" class="col s12">
                             <h3 class="center">Want to contact me? Send me a message from the form below!</h3>
                             <div class="row">
-                                <div class="input-field col s12">
+                                <div class="input-field col s9">
                                     <input id="first_name" type="text" class="validate" name="name">
                                     <label for="first_name" id="label">Full Name</label>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="input-field col s12">
+                                <div class="input-field col s9">
                                     <input id="email" type="text" class="validate" name="email">
                                     <label for="email" id="label">Email</label>
                                 </div>
@@ -316,7 +317,7 @@
                                     <label for="textarea1" id="label">Message</label>
                                 </div>
                             </div>
-                            <input type="submit" value="Send" id="send">
+                           <input type="submit" value="Send" id="send">
                             <br>
                         </form>
                     </div>
