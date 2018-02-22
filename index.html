@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <!-- or -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
@@ -20,7 +20,7 @@
 
 <body>
 
-    <div class="navbar">
+    <div class="navbar fixed">
         <nav class="transparent z-depth-0">
             <div class="nav-wrapper">
                 <div class="row">
@@ -33,20 +33,20 @@
 
                     <ul class="side-nav" id="mobile-demo">
                         <li>
-                            <a href="#aboutPic" target="_blank">About</a>
+                            <a href="#aboutSection">About</a>
                         </li>
                         <li>
-                            <a href="#portfolio" target="_blank">Portfolio</a>
+                            <a href="#portfolio">Portfolio</a>
                         </li>
                         <li>
                             <a href="./assets/images/AmandaWisniowskiResume.pdf" target="_blank">Resume</a>
                         </li>
 
                         <li>
-                            <a href="#contactForm" target="_blank">Contact</a>
+                            <a href="#contactForm">Contact</a>
                         </li>
                         <li>
-                            <a href="#socialBar" target="_blank">Social Bar</a>
+                            <a href="#socialBar">Social Bar</a>
                         </li>
                     </ul>
 
@@ -108,7 +108,7 @@
             <div class="overlay">
                 <div class="row">
 
-                    <h1 class="blue animated wobble">Amanda Wisniowski, Full Stack Developer</h1>
+                    <h1 class="animated wobble">Amanda Wisniowski, Full Stack Developer</h1>
                 </div>
             </div>
 
@@ -120,24 +120,37 @@
 
 
         <div class="section grey darken-4">
-            <div class="aboutSection">
+            <div id="aboutSection">
                 <div class="row">
 
                     <h4 class="center">Let Me Introduce Myself...</h4>
                 </div>
-                <div class="container">
+                <!-- <div class="container"> -->
                     <div class="row">
-                        <div id="aboutPic" class="col l6">
+                        <div class="col l4">
+                                <div class="sk-cube-grid">
+                                        <div class="sk-cube sk-cube1"></div>
+                                        <div class="sk-cube sk-cube2"></div>
+                                        <div class="sk-cube sk-cube3"></div>
+                                        <div class="sk-cube sk-cube4"></div>
+                                        <div class="sk-cube sk-cube5"></div>
+                                        <div class="sk-cube sk-cube6"></div>
+                                        <div class="sk-cube sk-cube7"></div>
+                                        <div class="sk-cube sk-cube8"></div>
+                                        <div class="sk-cube sk-cube9"></div>
+                                      </div>
+                        </div>
+                        <div id="aboutPic" class="col l4">
                             <img src="./assets/images/amandaPic.jpg" alt="Amanda Pic" class="circle responsive-img">
                         </div>
-                        <div class="col l6">
+                        <div class="col l4">
                             <h5>Hi, I'm Amanda and I recently moved here to Austin from Connecticut in July 2017. Have been loving
                                 the influx of tacos, no harsh winters, new friends and beautiful scenery. I am a new graduate
                                 of the University of Texas at Austin's Full Stack Coding Bootcamp and I enjoy learning how
                                 to code.... now let's get coding! </h5>
                         </div>
 
-                    </div>
+                    <!-- </div> -->
                 </div>
 
             </div>
@@ -325,9 +338,10 @@
                 </div>
                 <div class="footer-copyright">
                     <div class="container">
-                       <p> Made with
-                        <3 </p></div>
+                        <p> Made with
+                            <3 </p>
                     </div>
+                </div>
             </footer>
 
 
