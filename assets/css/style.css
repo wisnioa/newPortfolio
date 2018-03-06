@@ -84,9 +84,11 @@ video {
   }
   
 #aboutPic img {
+    margin-top: 50px;
     margin-left: 27px;
     padding:5px;
-    border: white 5px solid;
+    transform: rotate(90deg);
+  
     /* margin-bottom: 10px; */
 }
 
