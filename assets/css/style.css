@@ -85,7 +85,7 @@ video {
   
 #aboutPic img {
     margin-top: 50px;
-    margin-left: 27px;
+    
     padding:5px;
     transform: rotate(90deg);
   
@@ -144,11 +144,12 @@ font-family: Arial, Helvetica, sans-serif;
 
 #intro {
   text-align:justify;
-margin-left: 40px;
 }
 
-
-.sk-cube-grid {
+#skillsIcons i {
+  font-size: 60px;
+}
+/* .sk-cube-grid {
   width: 100px;
   height: 100px;
   margin: 100px auto;
@@ -208,7 +209,7 @@ margin-left: 40px;
     -webkit-transform: scale3D(0, 0, 1);
             transform: scale3D(0, 0, 1);
   } 
-}
+} */
 
 
 form {

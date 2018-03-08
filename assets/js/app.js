@@ -9,7 +9,8 @@ $(document).ready(function(){
       // DROPDOWNS
       $(".dropdown-button").dropdown(
         {
-          belowOrigin: true
+          belowOrigin: true,
+          hover: false
         }
       );
       // TABS
@@ -22,11 +23,8 @@ $(document).ready(function(){
   // Show sideNav
   $('.button-collapse').sideNav();
  
-  jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},6000);
-	});
+ 
+	
 
     });
       
