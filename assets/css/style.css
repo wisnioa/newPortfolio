@@ -3,15 +3,23 @@ nav {
   position: absolute;
 }
 video {
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
     display: block;
     position: relative;
       padding-bottom: 50px;
       height: 100%;
-    width:100%;
-    /* margin-bottom: px; */
+    width:100%; */
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
+
+
+
 
 .overlay {
     background:rgba(28, 209, 241, 0);
@@ -39,26 +47,28 @@ video {
   
   }
 
+  @media only screen and (max-width: 600px){
+    .overlay h1{
+      text-align: center;
+    }
+
+     .content__container__list__item {
+      margin-left: 90px;
+    }
+    #aboutPic img {
+      margin-bottom: 50px;
+    }
+  }
+
+  
 
  
 #aboutSection h4 {
   font-family: 'Nothing You Could Do', cursive;
+  
 }
   
-  /* #overlay-imgs {
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin:250px 0px 0px 0px;
   
-  } 
-  
-  #overlay-imgs img{
-  margin-top: 140px;
-  
-  } */
 
 
   .card{
@@ -84,43 +94,18 @@ video {
   }
   
 #aboutPic img {
-    margin-top: 50px;
-    
+    margin-top: 80px;
+    border: 5px solid white;
     padding:5px;
     transform: rotate(90deg);
   
     /* margin-bottom: 10px; */
 }
 
-/* * {box-sizing: border-box}
-
-.skills-container {
-  width: 100%;
-  background-color: #ddd;
-}
-
-.skills {
-  text-align: right;
-  padding-right: 20px;
-  line-height: 40px;
-  color: white;
-} 
-
-.html {width: 90%; background-color: turquoise;}
-.css {width: 80%; background-color: turquoise;}
-.js {width: 65%; background-color: turquoise;}
-.csf {width: 80%; background-color: turquoise;}
-.git{width:75%; background-color:lturquoise;}
-.jquery{width: 65%; background-color: turquoise;}
-.react{width:50%; background-color: tturquoise; }
-.db {width:60%; background-color: turquoise;}
-.express{width:70%; background-color:turquoise;}
-.node{width:70%; background-color: turquoise;} */
-
 
 p{
   
-  font-size:12px;
+  font-size:13px;
 }
 
 
@@ -138,78 +123,21 @@ nav li a {
  body, .page-footer, .footer-copyright p, #portfolio {
 background: #212121;
 color:  turquoise;
-font-family: Arial, Helvetica, sans-serif;
-
+font-family: 'Nothing You Could Do', cursive;
 }
 
 #intro {
   text-align:justify;
+  
 }
 
-#skillsIcons i {
-  font-size: 60px;
-}
-/* .sk-cube-grid {
-  width: 100px;
-  height: 100px;
-  margin: 100px auto;
+.content__container__list__item {
+font-size:20px;
 }
 
-.sk-cube-grid .sk-cube {
-  width: 33%;
-  height: 33%;
-  background-color: turquoise;
-  float: left;
-  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
-          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+.page-footer, .footer-copyright p {
+  font-family: Arial, Helvetica, sans-serif;
 }
-.sk-cube-grid .sk-cube1 {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s; }
-.sk-cube-grid .sk-cube2 {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s; }
-.sk-cube-grid .sk-cube3 {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s; }
-.sk-cube-grid .sk-cube4 {
-  -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s; }
-.sk-cube-grid .sk-cube5 {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s; }
-.sk-cube-grid .sk-cube6 {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s; }
-.sk-cube-grid .sk-cube7 {
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s; }
-.sk-cube-grid .sk-cube8 {
-  -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s; }
-.sk-cube-grid .sk-cube9 {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s; }
-
-@-webkit-keyframes sk-cubeGridScaleDelay {
-  0%, 70%, 100% {
-    -webkit-transform: scale3D(1, 1, 1);
-            transform: scale3D(1, 1, 1);
-  } 35% {
-    -webkit-transform: scale3D(0, 0, 1);
-            transform: scale3D(0, 0, 1); 
-  }
-}
-
-@keyframes sk-cubeGridScaleDelay {
-  0%, 70%, 100% {
-    -webkit-transform: scale3D(1, 1, 1);
-            transform: scale3D(1, 1, 1);
-  } 35% {
-    -webkit-transform: scale3D(0, 0, 1);
-            transform: scale3D(0, 0, 1);
-  } 
-} */
 
 
 form {
@@ -234,28 +162,5 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   width: 50px;
 }
 
-/* .navOverlay img{
-position: relative;
-  margin-top:80px;
-  position: relative;
-  animation: truck 20s infinite;
-  animation-delay: 5s;
--webkit-animation: truck 20s infinite;
--webkit-animation-delay: 5s;
-}
-@keyframes truck {
-  0%   {left:-40%; top:0px;}
 
-  100% {left:100%; top:0px;}
-}
 
-@-webkit-keyframes truck {
-  0%   {left:0%; top:0px;}
-
-  100% {left:100%; top:0px;}
-} */
-
-/* .navChange:hover {
-  
-    transform: scale(1.2);
-}  */
