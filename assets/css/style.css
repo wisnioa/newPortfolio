@@ -25,7 +25,6 @@ video {
 }
 
 
-
 .overlay {
     background:rgba(28, 209, 241, 0);
     position: absolute;
@@ -60,9 +59,9 @@ video {
      .content__container__list__item {
       margin-left: 90px;
     }
-    #aboutPic img {
+    /* #aboutPic img {
       margin-bottom: 50px;
-    }
+    } */
   }
 
   
@@ -72,9 +71,19 @@ video {
   font-family: 'Nothing You Could Do', cursive;
   
 }
-  
+
+#aboutSection {
+  padding-bottom: 50px;
+}
   
 
+#intro {
+  background: turquoise;
+  color: black;
+  padding: 1.875rem;
+  text-align:justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
   .card{
     border-style: solid;
@@ -97,10 +106,14 @@ video {
     opacity: 1;
     filter: alpha(opacity=1); 
   }
+
+  .card a {
+    color:turquoise;
+  }
   
 #aboutPic img {
-    margin-top: 80px;
-    border: 5px solid white;
+    margin-top: 150px;
+    border: 5px solid turquoise;
     padding:5px;
     transform: rotate(90deg);
   
@@ -125,16 +138,13 @@ nav li a {
 .parallax-container{
   height:700px;
 }
- body, .page-footer, .footer-copyright p, #portfolio {
+
+body, .page-footer, .footer-copyright p, #portfolio {
 background: #212121;
 color:  turquoise;
 font-family: 'Nothing You Could Do', cursive;
 }
 
-#intro {
-  text-align:justify;
-  
-}
 
 .content__container__list__item {
 font-size:20px;
