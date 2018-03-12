@@ -107,8 +107,8 @@ video {
     filter: alpha(opacity=1); 
   }
 
-  .card a {
-    color:turquoise;
+  .side-nav li a:hover {
+    color: turquoise;
   }
   
 #aboutPic img {
