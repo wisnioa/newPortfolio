@@ -14,13 +14,13 @@ $(document).ready(function(){
         }
       );
 
-      var options = [
+      // var options = [
    
-        {selector: '#card1', offset: 600, callback: function(el) {
-          Materialize.fadeInImage($(el));
-        } 
-      ];
-      Materialize.scrollFire(options);
+      //   {selector: '#card1', offset: 600, callback: function(el) {
+      //     Materialize.fadeInImage($(el));
+      //   },
+      // // ];
+      // Materialize.scrollFire(options);
       // TABS
       $('ul.tabs').tabs();
       // SCROLLSPY
