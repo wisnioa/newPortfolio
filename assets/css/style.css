@@ -127,6 +127,12 @@ p{
   font-size:13px;
 }
 
+#devpost {
+  background-color: turquoise;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
 
 
 nav li a {
@@ -141,7 +147,7 @@ nav li a {
 }
 
 body, .page-footer, .footer-copyright p, #portfolio {
-background: #212121;
+background:black;
 color:  turquoise;
 font-family: 'Nothing You Could Do', cursive;
 }
