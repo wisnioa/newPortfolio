@@ -64,22 +64,30 @@ video {
     } */
   }
 
-  
+ .special-container {
+   width: 90%;
+   margin: auto;
+ } 
 
  
 #aboutSection h4 {
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: Arial, Helvetica, sans-serif;
   
 }
 
 #aboutSection {
   padding-bottom: 50px;
 }
-  
+
+#awards {
+  color: turquoise;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:10px;
+}
 
 #intro {
-  background: turquoise;
-  color: black;
+ 
+  color: turquoise;
   padding: 1.875rem;
   text-align:justify;
   font-family: Arial, Helvetica, sans-serif;
@@ -110,21 +118,11 @@ video {
   .side-nav li a:hover {
     color: turquoise;
   }
-  
-#aboutPic img {
-    margin-top: 150px;
-    border: 5px solid turquoise;
-    padding:5px;
-    transform: rotate(90deg);
-  
-    /* margin-bottom: 10px; */
-}
 
 
 
 p{
-  
-  font-size:13px;
+    font-size:13px;
 }
 
 #devpost {
@@ -149,7 +147,7 @@ nav li a {
 body, .page-footer, .footer-copyright p, #portfolio {
 background:black;
 color:  turquoise;
-font-family: 'Nothing You Could Do', cursive;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 
