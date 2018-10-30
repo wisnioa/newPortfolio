@@ -1,0 +1,295 @@
+<div class="section black">
+                <div id="aboutSection">
+
+
+                    <div class="row">
+                        <h2 class="center">About</h2>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="container">
+
+
+                            <div id="aboutPic" class="col s12 l4 left">
+                                <img src="./assets/images/amandaPic.jpg" alt="Amanda Pic" class="responsive-img">
+                            </div>
+
+                            <div class="col s12 l8">
+
+                                <h5 id="intro">Hi, I'm Amanda, and I
+                                    <span class="red-text">love</span> building things. I recently moved to Austin from
+                                    Connecticut
+                                    in July 2017. I have been loving the influx of tacos, no harsh winters, new
+                                    friends,
+                                    and
+                                    beautiful
+                                    scenery. I am a new graduate of the University of Texas at Austin's Full Stack
+                                    Coding
+                                    Bootcamp.
+                                    The tools in my toolbelt include: HTML, CSS, JavaScript/jQuery, Git, Node, Express,
+                                    React,
+                                    databases
+                                    like mySQL and MongoDB, and popular CSS frameworks like Materialize CSS and
+                                    Bootstrap.
+                                    Who
+                                    can
+                                    forget the best tool of all? Google!
+
+                                </h5>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="turquoise">
+
+            <div class="section turquoise">
+                <div class="row">
+                    <div id="awards">
+                        <h3 class="center">Awards</h3>
+                        <h5 class="center">SXSW 2018 Hackathon, 2nd Place in Amazon category for Concertbilia.</h5>
+                    </div>
+                </div>
+            </div>
+
+            < <div class="parallax-container valign-wrapper" height="1400px">
+                <div class="section no-pad-bot">
+                    <div class="container">
+                        <div class="row center">
+                            <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="parallax">
+                    <img src="./assets/images/coding.jpg" width="1200px" alt="coding picture">
+                </div>
+        </div>
+
+        <div class="animation-begin">
+            <div class="row black">
+                <div class="container">
+                    <div id="portfolio" class="section intro black">
+                        <h2 id="portfolioHeader" class="header center turquoise-text">
+                            Projects
+                        </h2>
+                        <div class="row">
+                            <div class="col m6">
+                                <div id="card1">
+                                    <div class="card medium sticky-action">
+                                        <div class="card-image waves-effect waves-block waves-light">
+                                            <img class="activator" src="./assets/images/bamazon.jpg">
+                                        </div>
+                                        <div class="card-action">
+                                            <span class="card-title activator grey-text text-darken-4">BAMAZON
+                                                <i class="material-icons right">arrow_upward</i>
+                                            </span>
+                                            <p>
+                                                <a class="purple-text text-darken-4" target="_blank" href="https://github.com/wisnioa/bamazon">Visit
+                                                    App</a>
+                                            </p>
+                                        </div>
+                                        <div class="card-reveal">
+                                            <span class="card-title grey-text text-darken-4">BAMAZON
+                                                <i class="material-icons right">close</i>
+                                            </span>
+                                            <p class="description" style="font-size:13px">An interactive storefront
+                                                primarily
+                                                using Node.js and mySQL.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col m6">
+                                <div class="card medium sticky-action">
+                                    <div class="card-image waves-effect waves-block waves-light">
+                                        <img class="activator" src="./assets/images/iceBreakr.jpg">
+                                    </div>
+                                    <div class="card-action">
+                                        <span class="card-title activator grey-text text-darken-4">iceBreakr
+                                            <i class="material-icons right">arrow_upward</i>
+                                        </span>
+                                        <p>
+                                            <a class="purple-text text-darken-4" target="_blank" href="https://icebreakr2.herokuapp.com/">Visit
+                                                App</a>
+                                        </p>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">iceBreakr
+                                            <i class="material-icons right">close</i>
+                                        </span>
+                                        <p class="description" style="font-size:13px">Full stack dating app that uses
+                                            Firebase,
+                                            mySQL, Google Maps, jQuery.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col m6">
+                                <div class="card medium sticky-action">
+                                    <div class="card-image waves-effect waves-block waves-light">
+                                        <img class="activator" src="./assets/images/mavSquared.jpg">
+                                    </div>
+                                    <div class="card-action">
+                                        <span class="card-title activator grey-text text-darken-4">Mavens and Mavericks
+                                            <i class="material-icons right">arrow_upward</i>
+                                        </span>
+                                        <p>
+                                            <a class="purple-text text-darken-4" target="_blank" href="https://mavens-and-mavericks.herokuapp.com/">Visit
+                                                app</a>
+                                        </p>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">Mavens and Mavericks
+                                            <i class="material-icons right">close</i>
+                                        </span>
+                                        <p class="description" style="font-size:13px">A full stack social media app
+                                            that
+                                            pairs mentors and mentees together. Built with React, Node.js, Express,
+                                            Axios,
+                                            and Mongoose. </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col m6">
+                                <div class="card medium sticky-action">
+                                    <div class="card-image waves-effect waves-block waves-light">
+                                        <img class="activator" src="./assets/images/dota.jpg">
+                                    </div>
+                                    <div class="card-action">
+                                        <span class="card-title activator grey-text text-darken-4">Dota 2 Database
+                                            <i class="material-icons right">arrow_upward</i>
+                                        </span>
+                                        <p>
+                                            <a class="purple-text text-darken-4" target="_blank" href="https://wisnioa.github.io/Dota2Database/">Visit
+                                                app</a>
+                                        </p>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">Dota 2 Database
+                                            <i class="material-icons right">close</i>
+                                        </span>
+                                        <p class="description" style="font-size:13px">App that displays all the hero
+                                            characters
+                                            for the popular multiplayer game. Uses Dota API, YouTube API, and jQuery</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col m6">
+                                <div class="card medium sticky-action">
+                                    <div class="card-image waves-effect waves-block waves-light">
+                                        <img class="activator" src="./assets/images/crawlPic.jpg">
+                                    </div>
+                                    <div class="card-action">
+                                        <span class="card-title activator grey-text text-darken-4">Amazon Crawler
+                                            <i class="material-icons right">arrow_upward</i>
+                                        </span>
+                                        <p>
+                                            <a class="purple-text text-darken-4" target="_blank" href="https://github.com/wisnioa/amazonCrawler">Visit
+                                                app</a>
+                                        </p>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">amazonCrawler <i class="material-icons right">close</i>
+                                        </span>
+                                        <p class="description" style="font-size:13px">Using Puppeteer, I navigate to
+                                            Amazon.com,
+                                            search for books, grab those results, and print them in JSON format and
+                                            save
+                                            them to a JSON file.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="parallax-container valign-wrapper" height="1200px">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <div class="row center">
+                        <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
+                    </div>
+                </div>
+            </div>
+            <div class="parallax">
+                <img src="./assets/images/bluebonnets.jpg" alt="bluebonnets">
+            </div>
+        </div>
+
+        <div class="section black">
+
+            <div class="typeform-widget" data-url="https://amandawisniowski.typeform.com/to/YAtUlh" style="width: 100%; height: 500px;"></div>
+            <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+            <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered
+                by
+                <a href="https://admin.typeform.com/signup?utm_campaign=YAtUlh&utm_source=typeform.com-11813128-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN"
+                    style="color: #999" target="_blank">Typeform</a>
+            </div>
+
+
+
+        </div>
+
+
+
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row ">
+                    <div class="col l6 s12 ">
+                        <h5>Thanks for stopping by!</h5>
+                        <p>Looking to work together? Feel free to send me an email :)</p>
+                        <a class="white-text" href="mailto:amandawisniowski@gmail.com?subject=Hi Amanda!">amandawisniowski@gmail.com</a>
+
+                    </div>
+                    <div class="col l2 s12 ">
+
+                    </div>
+                    <div class="col l4 s12 ">
+                        <h5 class="center">Connect with Me!</h5>
+                        <div id="socialBar">
+                            <ul class="center">
+
+                                <a href="https://github.com/wisnioa" target="_blank">
+                                    <img src="./assets/images/github.png" alt="Github Icon">
+                                </a>
+
+                                <a href="https://devpost.com/wisnioa" target="_blank">
+                                    <img id="devpost" src="./assets/images/devpost.png" alt="Devpost Icon">
+                                </a>
+
+
+                                <a href="https://linkedin.com/in/amanda-wisniowski" target="_blank">
+                                    <img src="./assets/images/linkedin.png" alt="LinkedIn Icon">
+                                </a>
+
+
+                                <a href="https://twitter.com/MandaWisniowski?lang=en" target="_blank">
+                                    <img src="./assets/images/twitter.png" alt="Twitter Icon">
+                                </a>
+
+
+                                <a href="https://stackexchange.com/users/10363414/awisniowski" target="_blank">
+                                    <img src="./assets/images/stackoverflow.png" alt="StackOverflow Icon">
+                                </a>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
