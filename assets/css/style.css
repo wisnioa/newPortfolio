@@ -302,7 +302,7 @@ section#contact .form-control:focus {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: turquoise;
   color: white;
   transform: rotateY(180deg);
   width: 300px;
@@ -310,6 +310,10 @@ section#contact .form-control:focus {
   padding: 10px;
 }
 
+.flip-card-back a {
+  font-weight: bold;
+  color: tomato;
+}
 footer {
   padding: 25px 0;
   text-align: center;
