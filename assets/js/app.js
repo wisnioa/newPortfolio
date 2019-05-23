@@ -1,31 +1,31 @@
 
 
 
-$(document).ready(function () {
+// $(document).ready(function () {
 
 
-  // $('.sidenav').sidenav();
-  // $('.carousel').carousel();
+//   // $('.sidenav').sidenav();
+//   // $('.carousel').carousel();
 
  
-  var owl = $('.owl-carousel');
-  owl.owlCarousel({
-      items:5,
-      margin: 250,
-      loop:true,
-      autoplay:true,
-      autoplayTimeout:3000,
-      autoplayHoverPause:true
-  });
-  $('.play').on('click',function(){
-      owl.trigger('play.owl.autoplay',[1000])
-  })
-  $('.stop').on('click',function(){
-      owl.trigger('stop.owl.autoplay')
-  })
+//   var owl = $('.owl-carousel');
+//   owl.owlCarousel({
+//       items:5,
+//       margin: 250,
+//       loop:true,
+//       autoplay:true,
+//       autoplayTimeout:3000,
+//       autoplayHoverPause:true
+//   });
+//   $('.play').on('click',function(){
+//       owl.trigger('play.owl.autoplay',[1000])
+//   })
+//   $('.stop').on('click',function(){
+//       owl.trigger('stop.owl.autoplay')
+//   })
   
   
-});
+// });
 
 (function() {
 
