@@ -1,31 +1,32 @@
 
+const contactForm = document.getElementById("contactForm");
+
+            contactForm.addEventListener("submit", function(event) {
+
+              event.preventDefault();
+
+                var request = new XMLHttpRequest();
+                var url = "./mail/contact_me.php";
+                request.open("POST", url, true);
+                request.setRequestHeader("Content-Type", "application/json");
+                request.onreadystatechange = function () {
+                    if (request.readyState === 4 && request.status === 200) {
+                        var jsonData = JSON.parse(request.response);
+                        console.log(jsonData);
+                    }
+                };
+                var name =  document.getElementById("name").value;
+                var email = document.getElementById("email").value;
+                var phone = document.getElementById("phone").value;
+                var message = document.getElementById("message").value;
 
 
-// $(document).ready(function () {
+                var data = JSON.stringify({"name": name, "email": email, "phone": phone, "message": message});
 
 
-//   // $('.sidenav').sidenav();
-//   // $('.carousel').carousel();
+                request.send(data);
 
- 
-//   var owl = $('.owl-carousel');
-//   owl.owlCarousel({
-//       items:5,
-//       margin: 250,
-//       loop:true,
-//       autoplay:true,
-//       autoplayTimeout:3000,
-//       autoplayHoverPause:true
-//   });
-//   $('.play').on('click',function(){
-//       owl.trigger('play.owl.autoplay',[1000])
-//   })
-//   $('.stop').on('click',function(){
-//       owl.trigger('stop.owl.autoplay')
-//   })
-  
-  
-// });
+            });  
 
 (function() {
 
