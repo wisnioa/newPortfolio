@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "DM Sans", sans-serif;
+  src: url(DM+Sans);
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+
+.header {
+  position: fixed;
+  z-index: 10;
+  left: 30px;
+  top: 60px;
+}
+.header-group .name-logo {
+  text-decoration: none;
+  font-size: 50px;
+  color: black;
+  font-weight: 100;
+}
+.header-group h4 {
+  font-size: 30px;
+  margin-top: 0;
+  font-weight: 100;
+}
+.header nav ul {
+  list-style: none;
+  padding: 0;
+}
+.header nav ul li {
+  margin-bottom: 10px;
+}
+.header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  transition: all 0.25s ease;
+}
+.header nav ul li a:hover {
+  font-weight: 700;
+}
+
+.canvas {
+  position: fixed;
+  border: 1px solid red;
+}

@@ -1,0 +1,58 @@
+@import 'fonts.scss';
+
+body {
+    font-family: $font;
+    text-transform: uppercase;
+    color: black;
+}
+
+.header {
+    position: fixed;
+    z-index: 10;
+    left: 30px;
+    top: 60px;
+
+    &-group {
+        .name-logo {
+            text-decoration: none;
+            font-size: 50px;
+            color: black;
+            font-weight: 100;
+        }
+
+        h4 {
+            font-size: 30px;
+            margin-top: 0;
+            font-weight: 100;
+        }
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                margin-bottom: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 24px;
+                    transition: all .25s ease;
+
+                    &:hover {
+                        font-weight: 700;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.canvas {
+    position: fixed;
+    border: 1px solid red;
+
+}

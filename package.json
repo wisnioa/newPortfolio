@@ -1,0 +1,30 @@
+{
+  "name": "newportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisnioa/newPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisnioa/newPortfolio/issues"
+  },
+  "homepage": "https://github.com/wisnioa/newPortfolio#readme",
+  "devDependencies": {
+    "chokidar": "^3.6.0",
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "onchange": "^7.1.0",
+    "sass": "^1.77.4"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}

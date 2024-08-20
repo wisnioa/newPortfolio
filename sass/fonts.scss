@@ -1,0 +1,15 @@
+// _fonts.scss
+@mixin font-face($family-name, $src, $weight: normal, $style: normal, $display: swap) {
+    @font-face {
+      font-family: $family-name;
+      src: url(#{$src});
+      font-weight: $weight;
+      font-style: $style;
+      font-display: $display;
+    }
+  }
+  
+  $dm-sans-url: 'DM+Sans'; 
+  $font: 'DM Sans', sans-serif;
+  
+  @include font-face($font, $dm-sans-url, 200);
