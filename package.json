@@ -1,0 +1,23 @@
+{
+  "name": "newportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "sass": "sass styles.scss css/styles.css",
+  "sass:watch": "sass --watch styles.scss css/styles.css"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisnioa/newPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisnioa/newPortfolio/issues"
+  },
+  "homepage": "https://github.com/wisnioa/newPortfolio#readme",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
