@@ -1,0 +1,100 @@
+body {
+  background-color: #121212;
+  color: #33ff33;
+  font-family: 'Roboto Mono', monospace;
+  padding: 2rem;
+  margin: 0;
+  line-height: 1.6;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" ><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch" /></filter><rect width="100%" height="100%" filter="url(%23noise)" /></svg>');
+    opacity: 0.3;
+    z-index: 1;
+  }
+}
+
+a {
+  color: #33ffcc;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.terminal-box {
+  background-color: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  box-shadow: 0 0 5px rgba(51, 255, 51, 0.4);
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 10;
+}
+
+.prompt-line {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto Mono', monospace;
+  white-space: nowrap;
+  margin: 1rem 0 0 1rem;
+
+  .prompt {
+    margin-right: 0.5rem;
+    flex-shrink: 0;
+    color: #00ff00;
+  }
+
+  input {
+    background-color: transparent;
+    border: none;
+    color: #33ff33;
+    font-family: inherit;
+    font-size: 1em;
+    width: 100%;
+    outline: none;
+  }
+}
+
+.output {
+  color: #33ff33;
+  margin-left: 1rem;
+}
+
+.loading {
+  color: #33ff33;
+  margin-left: 1rem;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+}
+
+::selection {
+  background: #33ff33;
+  color: #000;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+}
