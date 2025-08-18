@@ -28,7 +28,7 @@ window.addEventListener("DOMContentLoaded", () => {
   `,
     "projects": `
     <p><strong>System Admin Toolkit:</strong> Bash CLI tool for automating user and system tasks. 
-    <a href="https://github.com/wisnioa/system_admin_toolkit" target="_blank">GitHub</a></p>
+    <a href="https://github.com/wisnioa/system_admin_toolkit" target="_blank">System Admin Toolkit</a></p>
     <p><strong>Bamazon:</strong> An interactive storefront primarily using Node.js and mySQL. 
     <a href="https://github.com/wisnioa/bamazon" target="_blank">Bamazon</a></p>
   `,
