@@ -29,11 +29,11 @@ window.addEventListener("DOMContentLoaded", () => {
     "projects": `
     <p><strong>System Admin Toolkit:</strong> Bash CLI tool for automating user and system tasks. 
     <a href="https://github.com/wisnioa/system_admin_toolkit" target="_blank">GitHub</a></p>
-    <p><strong>Concertbilia:</strong> Hackathon-winning app using Amazon Music API. 
-    <a href="https://devpost.com/wisnioa" target="_blank">Devpost</a></p>
+    <p><strong>Bamazon:</strong> An interactive storefront primarily using Node.js and mySQL. 
+    <a href="https://github.com/wisnioa/bamazon" target="_blank">Bamazon</a></p>
   `,
     "resume": `
-    <a href="AmandaWisniowskiResumeJune2025.pdf" target="_blank">Download my resume (PDF)</a>
+    <a href="AmandaWisniowskiResumeJuly2025.pdf" target="_blank">Download my resume (PDF)</a>
   `,
     "contact": `
     <p>You can reach me at: <a href="mailto:amanda.wisniowski@gmail.com">amanda.wisniowski@gmail.com</a></p>
