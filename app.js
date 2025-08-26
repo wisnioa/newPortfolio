@@ -28,12 +28,16 @@ window.addEventListener("DOMContentLoaded", () => {
   `,
     "projects": `
     <p><strong>System Admin Toolkit:</strong> Bash CLI tool for automating user and system tasks. 
-    <a href="https://github.com/wisnioa/system_admin_toolkit" target="_blank">GitHub</a></p>
-    <p><strong>Concertbilia:</strong> Hackathon-winning app using Amazon Music API. 
-    <a href="https://devpost.com/wisnioa" target="_blank">Devpost</a></p>
+    <a href="https://github.com/wisnioa/system_admin_toolkit" target="_blank">System Admin Toolkit</a></p>
+    <p><strong>Bamazon:</strong> An interactive storefront primarily using Node.js and mySQL. 
+    <a href="https://github.com/wisnioa/bamazon" target="_blank">Bamazon</a></p>
+    <p><strong>SafeKeep:</strong> A cross-platform GUI application for backing up files and folders using native commands (robocopy on Windows, rsync on Unix/Linux/macOS). 
+    <a href="https://github.com/wisnioa/safekeep" target="_blank">SafeKeep</a></p>
+    <p><strong>NewsPipeline:</strong> A lightweight static website that aggregates news links using Python scripts and deploys updates via GitHub Actions to GitHub Pages. 
+    <a href="https://wisnioa.github.io/newspipeline/" target="_blank">NewsPipeline</a></p>
   `,
     "resume": `
-    <a href="AmandaWisniowskiResumeJune2025.pdf" target="_blank">Download my resume (PDF)</a>
+    <a href="AmandaWisniowskiResumeJuly2025.pdf" target="_blank">Download my resume (PDF)</a>
   `,
     "contact": `
     <p>You can reach me at: <a href="mailto:amanda.wisniowski@gmail.com">amanda.wisniowski@gmail.com</a></p>
