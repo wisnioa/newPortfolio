@@ -31,6 +31,10 @@ window.addEventListener("DOMContentLoaded", () => {
     <a href="https://github.com/wisnioa/system_admin_toolkit" target="_blank">System Admin Toolkit</a></p>
     <p><strong>Bamazon:</strong> An interactive storefront primarily using Node.js and mySQL. 
     <a href="https://github.com/wisnioa/bamazon" target="_blank">Bamazon</a></p>
+    <p><strong>SafeKeep:</strong> A cross-platform GUI application for backing up files and folders using native commands (robocopy on Windows, rsync on Unix/Linux/macOS). 
+    <a href="https://github.com/wisnioa/safekeep" target="_blank">SafeKeep</a></p>
+    <p><strong>NewsPipeline:</strong> A lightweight static website that aggregates news links using Python scripts and deploys updates via GitHub Actions to GitHub Pages. 
+    <a href="https://wisnioa.github.io/newspipeline/" target="_blank">NewsPipeline</a></p>
   `,
     "resume": `
     <a href="AmandaWisniowskiResumeJuly2025.pdf" target="_blank">Download my resume (PDF)</a>
