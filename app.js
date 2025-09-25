@@ -19,12 +19,13 @@ window.addEventListener("DOMContentLoaded", () => {
     I'm Amanda, a certified IT support specialist with a background in web development. I love solving problems and building user-focused systems.
   `,
     "skills": `
-    <ul>
-      <li>IT: Windows, Linux, Ubuntu, MacOS, Bash, troubleshooting</li>
-      <li>Dev: HTML, CSS, JavaScript, Node.js</li>
-      <li>Tools: Git, VS Code, Jira, Figma</li>
-      <li>Certs: CompTIA A+, AWS (in progress)</li>
-    </ul>
+  <ul>
+    <li>IT: Windows, Linux/Ubuntu, macOS, Active Directory, Group Policy, Networking (TCP/IP, DNS, DHCP, VPNs), VirtualBox</li>
+    <li>Automation & Scripting: Bash, Python</li>
+    <li>DevOps: GitHub Actions, Jenkins, CI/CD pipelines</li>
+    <li>Tools: Git/GitHub, VS Code, Jira, Confluence, Figma</li>
+    <li>Certifications: CompTIA A+, Network+ (in progress), AWS Solutions Architect – Associate (planned)</li>
+  </ul>
   `,
     "projects": `
     <p><strong>System Admin Toolkit:</strong> Bash CLI tool for automating user and system tasks. 
