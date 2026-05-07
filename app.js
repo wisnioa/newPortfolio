@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", () => {
     <li>Automation & Scripting: Bash, Python, Node.JS</li>
     <li>DevOps: GitHub Actions, Jenkins, CI/CD pipelines</li>
     <li>Tools: Git/GitHub, VS Code, Jira, Confluence, Figma</li>
-    <li>Certifications: CompTIA A+, AWS Solutions Architect – Associate (in progress)</li>
+    <li>Certifications: CompTIA A+, Google Cybersecurity, AWS Solutions Architect – Associate (in progress)</li>
   </ul>
   `,
     "projects": `
