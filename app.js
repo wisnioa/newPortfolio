@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", () => {
     <li>Automation & Scripting: Bash, Python, Node.JS</li>
     <li>DevOps: GitHub Actions, Jenkins, CI/CD pipelines</li>
     <li>Tools: Git/GitHub, VS Code, Jira, Confluence, Figma</li>
-    <li>Certifications: CompTIA A+, Google Cybersecurity, CompTIA Security+ (in progress), AWS Solutions Architect – Associate (planned)</li>
+    <li>Certifications: CompTIA A+, Google Cybersecurity, CompTIA Security+, AWS Solutions Architect – Associate (in progress)</li>
   </ul>
   `,
     "projects": `
@@ -38,7 +38,7 @@ window.addEventListener("DOMContentLoaded", () => {
     <a href="https://wisnioa.github.io/newspipeline/" target="_blank">NewsPipeline</a></p>
   `,
     "resume": `
-    <a href="resume_awisniowski_092025.pdf" target="_blank">Download my resume (PDF)</a>
+    <a href="resume_awisniowski_2026.pdf" target="_blank">Download my resume (PDF)</a>
   `,
     "contact": `
     <p>You can reach me at: <a href="mailto:amanda.wisniowski@gmail.com">amanda.wisniowski@gmail.com</a></p>
